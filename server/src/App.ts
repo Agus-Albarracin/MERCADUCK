@@ -1,4 +1,4 @@
-const express = require("express");
+import express from "express";
 import {Request, Response, NextFunction } from "express";
 const server = express();
 
@@ -12,4 +12,4 @@ server.use((req: Request, res: Response, next: NextFunction) => {
     next();
 });
 
-module.exports = server;
+export default server;
