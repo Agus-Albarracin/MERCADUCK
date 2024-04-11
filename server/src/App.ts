@@ -1,7 +1,10 @@
 import express from "express";
 import {Request, Response, NextFunction } from "express";
-const server = express();
 
+// Rutas generales
+import productRoutes from "./routes/product.routes"
+
+const server = express();
 
 server.use(express.json()); // para decirle que todo aquello que recibimos sea un json.
 server.use((req: Request, res: Response, next: NextFunction) => {
@@ -11,5 +14,8 @@ server.use((req: Request, res: Response, next: NextFunction) => {
     res.setHeader('Access-Control-Allow-Credentials', 'true');
     next();
 });
+
+// Uso de rutas
+server.use("/api", productRoutes)
 
 export default server;
