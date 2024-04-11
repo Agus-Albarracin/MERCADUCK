@@ -3,6 +3,7 @@ import {Request, Response, NextFunction } from "express";
 
 // Rutas generales
 import productRoutes from "./routes/product.routes"
+import userRoutes from "./routes/user.routes"
 
 const server = express();
 
@@ -17,5 +18,6 @@ server.use((req: Request, res: Response, next: NextFunction) => {
 
 // Uso de rutas
 server.use("/api", productRoutes)
+server.use("/api", userRoutes)
 
 export default server;
