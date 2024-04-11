@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "name": "VW Vento 2014",
+    "miniDescription": "Transportation vehicle",
+    "price": "25000",
+    "category": "Automotive",
+    "description": "A car is a wheeled motor vehicle used for transportation",
+    "image": "https://imgs.search.brave.com/-g9kMHFwUoyHGv0KZqvO3avFUhztEZv678ClT0qCv_Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWdk/LmFlcGxjZG4uY29t/LzY2NHgzNzQvZWMv/YTIvM0YvMTQyMjcv/aW1nL20vVm9sa3N3/YWdlbi1WZW50by1S/aWdodC1Gcm9udC1U/aHJlZS1RdWFydGVy/LTQ5MDg1X29sLmpw/Zz92PTIwMTcxMTAy/MTQyMSZxPTgw"
+  },
+  {
+    "id": "2",
+    "name": "Toothbrush",
+    "miniDescription": "Oral hygiene tool",
+    "price": "3",
+    "category": "Personal Care",
+    "description": "A toothbrush is a dental instrument used for cleaning teeth",
+    "image": "https://imgs.search.brave.com/w5MLer88kcU6CZlGIhdejY2fscLZL4ZsIXlUKf0i07Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzQzLzE1Lzc4/LzM2MF9GXzQzMTU3/ODM0X2tnaGlzelps/bW1ieXJGMjJGeUtp/WllhQXNhTVAza1hl/LmpwZw"
+  },
+  {
+    "id": "3",
+    "name": "iPhone 15 Pro",
+    "miniDescription": "Mobile communication device",
+    "price": "800",
+    "category": "Electronics",
+    "description": "A smartphone is a handheld device that combines cellular and mobile computing functions",
+    "image": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_15_pro__bpnjhcrxofqu_xlarge.png"
+  },
+  {
+    "id": "4",
+    "name": "Nike Jordan Max Aura 5",
+    "miniDescription": "Footwear",
+    "price": "50",
+    "category": "Fashion",
+    "description": "Shoes are a type of footwear designed to protect and comfort the human foot",
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/45d37b3f-7afa-4263-82cb-792b770b7fb8/calzado-jordan-max-aura-5-8FDN1t.png"
+  },
+  {
+    "id": "5",
+    "name": "Atomic Habits",
+    "miniDescription": "Written work",
+    "price": "20",
+    "category": "Books",
+    "description": "A book is a medium for recording information in the form of writing",
+    "image": "https://imgs.search.brave.com/Y8sWKkU4TVHR_GKpk4XXbxMcj5y7vGxlwgU7dzwVZXc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90YXJn/ZXQuc2NlbmU3LmNv/bS9pcy9pbWFnZS9U/YXJnZXQvR1VFU1Rf/OTYxZjRhZWItYmU3/Ni00NTFlLWI1MWEt/NDQ1OTI5MTMwNmMx/P3dpZD04MDAmaGVp/PTgwMCZxbHQ9ODAm/Zm10PXBqcGVn"
+  },
+  {
+    "id": "6",
+    "name": "Chair",
+    "miniDescription": "Furniture",
+    "price": "100",
+    "category": "Home",
+    "description": "A chair is a piece of furniture with a raised surface supported by legs",
+    "image": "https://imgs.search.brave.com/1FxgOXQwtgGqmReshaTyio6kLAsnxUHwX8jWXDFFjuE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU0/OTI2NjIwL3Bob3Rv/L2FybWNoYWlyLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1s/TFJfbE5WS3dvMmVp/RWwtaTVRWmxDdVBX/YnU4SkQwNlpkQkVt/YkdlWU5JPQ"
+  },
+  {
+    "id": "7",
+    "name": "Headphones Bose",
+    "miniDescription": "Audio device",
+    "price": "150",
+    "category": "Electronics",
+    "description": "Headphones are a pair of small loudspeaker drivers worn on or around the head",
+    "image": "https://imgs.search.brave.com/GSLyAVbp16syIAL08laqHCHceYdIDTukQSieUTZttLY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzUxRzBMbGZPMDBM/LmpwZw"
+  },
+  {
+    "id": "8",
+    "name": "Vans T-shirt",
+    "miniDescription": "Clothing",
+    "price": "25",
+    "category": "Fashion",
+    "description": "A T-shirt is a style of fabric shirt named after the T shape of its body and sleeves",
+    "image": "https://imgs.search.brave.com/hsQxRUGndgiJ423qWA7epJCmS6XADFCj97Ycgo_4ezA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFQenZlSFZ2eEwu/anBn"
+  },
+  {
+    "id": "9",
+    "name": "Laptop Lenovo IdeaPad",
+    "miniDescription": "Portable computer",
+    "price": "1200",
+    "category": "Electronics",
+    "description": "A laptop is a portable computer with a clamshell form factor",
+    "image": "https://imgs.search.brave.com/nQQdR4BykXR_OCSKzso9w32EHWIyTwU_5LVP7jR6n2o/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzYxQ0ZCUWJVZU9T/LmpwZw"
+  },
+  {
+    "id": "10",
+    "name": "Aplle Watch Ultra 2",
+    "miniDescription": "Timekeeping device",
+    "price": "300",
+    "category": "Fashion",
+    "description": "A watch is a timepiece intended to be carried or worn by a person",
+    "image": "https://www.apple.com/v/apple-watch-ultra-2/d/images/overview/design/design_brighter_light__fw79yoz4yyaa_large.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Bicycle",
+    "miniDescription": "Human-powered vehicle",
+    "price": "500",
+    "category": "Sports",
+    "description": "A bicycle is a human-powered or motor-powered, pedal-driven vehicle",
+    "image": "https://imgs.search.brave.com/foJ0nbWEv0uo4S5q-4bW3OTw3T12p4YzKfv_TJUIln0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTEzakthYmpGZlMu/anBn"
+  },
+  {
+    "id": "12",
+    "name": "Sony A7R III Camera",
+    "miniDescription": "Photography device",
+    "price": "800",
+    "category": "Electronics",
+    "description": "A camera is an optical instrument used to capture still images or to record moving images",
+    "image": "https://imgs.search.brave.com/oWI-9Cfne4PKEmGWMspEERuUiNnXOaKdRaj08dOpYN0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFWTTRMRVVySUwu/anBn"
+  },
+  {
+    "id": "13",
+    "name": "Guitar",
+    "miniDescription": "Musical instrument",
+    "price": "400",
+    "category": "Music",
+    "description": "A guitar is a musical instrument classified as a string instrument",
+    "image": "https://imgs.search.brave.com/7gcQ50sNcR-8qqSPPYF113KLFzriNALbwDRmCeGynpU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU2/NTQ3ODMzL3Bob3Rv/L2Fjb3VzdGljLWd1/aXRhci5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9NDFkcFRi/Z2JrN1pwOUVaOVdf/bGxmYmJYWkRHM1V0/MVM5aXVWU3Jtd0dJ/ND0"
+  },
+  {
+    "id": "14",
+    "name": "Backpack",
+    "miniDescription": "Bag",
+    "price": "50",
+    "category": "Fashion",
+    "description": "A backpack is a type of bag that is carried on a person's back",
+    "image": "https://imgs.search.brave.com/KgUM0KV2GLp2e8yy3zqWPqhrH5N0X0-P-0wlV6CC9_8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dHJhdmVsYW5kbGVp/c3VyZS5jb20vdGht/Yi84RHVlYWI4cTct/VFRLV1FwZ1VXTVpZ/a3hGeDA9LzE1MDB4/MC9maWx0ZXJzOm5v/X3Vwc2NhbGUoKTpt/YXhfYnl0ZXMoMTUw/MDAwKTpzdHJpcF9p/Y2MoKS9iYWdzdXJl/LXRyYXZlbC1iYWNr/cGFjay01ODU3YjBj/YTg1MzE0MjFkOWM4/OTMyOGEwNWExNjdm/Ny5qcGc"
+  },
+  {
+    "id": "15",
+    "name": "Samsung AU7000 UHD Led Smart TV 58",
+    "miniDescription": "Television",
+    "price": "1000",
+    "category": "Electronics",
+    "description": "A television is a telecommunication medium used for transmitting moving images",
+    "image": "https://imgs.search.brave.com/oBtPiitVhsnKmx7Z_ePUoOGZn_l5MLtaghaf4fAU06o/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS5teC9tZy9n/bS8zcHAvYXNyLzE0/ODRhODBiLWNjNGEt/NDgwNC1hN2I3LTJi/OGQ2YzAyZTE0NS5i/NzAwMDllMGUwMzFm/YjczYTY4NDkwZjE1/ZjRhOTBjMS5qcGVn/P29kbkhlaWdodD0z/NzImb2RuV2lkdGg9/MzcyJm9kbkJnPUZG/RkZGRg"
+  },
+  {
+    "id": "16",
+    "name": "Perfume",
+    "miniDescription": "Fragrance",
+    "price": "80",
+    "category": "Beauty",
+    "description": "Perfume is a mixture of fragrant essential oils or aroma compounds",
+    "image": "https://imgs.search.brave.com/fic4bElZTKZsEYah7eJtStkuyR_EBMwnX2vWMmMXQUU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTgz/Mzg4MzIwL3Bob3Rv/L3BlcmZ1bWUtYm90/dGxlLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1ZTURyY2RS/ZVhsdkRUSmROZS1z/SjFkaXI3MzFMeFA3/OFgwNXM3YmpkWEJr/PQ"
+  },
+  {
+    "id": "17",
+    "name": "Salomon Sunglasses",
+    "miniDescription": "Eyewear",
+    "price": "150",
+    "category": "Fashion",
+    "description": "Sunglasses or sun glasses are a form of protective eyewear",
+    "image": "https://imgs.search.brave.com/4fbjmZ7kNTbdP8-qLgwM8OCI3s-hqGoTc2FdBbyLnUI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvNzM0/YWYyOWMtZjMzYS00/YTIyLTk2MWMtY2M1/ZjY2Y2E4YWZkXzEu/N2Y4ZWZiYzBmNTMz/NWExYWM2YTQwNWY4/MzU0MmQyNTguanBl/Zz9vZG5IZWlnaHQ9/NDUwJm9kbldpZHRo/PTQ1MCZvZG5CZz1m/ZmZmZmY"
+  },
+  {
+    "id": "18",
+    "name": "Vacuum Cleaner",
+    "miniDescription": "Cleaning device",
+    "price": "200",
+    "category": "Home",
+    "description": "A vacuum cleaner is a device that uses an air pump to create a partial vacuum",
+    "image": "https://imgs.search.brave.com/XTTLx2r7ulisW_PVg-c-YKyDNnC1MhEJZ1m6VMwFyo8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTg0/MTQyNjE4L3Bob3Rv/L3ZhY3V1bS1jbGVh/bmVyLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1mZ3NiUzRH/SHNEYWtpOWUyZ0RI/U3dtbGFRVi1YeUJh/WXdFd254RWoyQmRF/PQ"
+  },
+  {
+    "id": "19",
+    "name": "Geras 5",
+    "miniDescription": "Electronic game",
+    "price": "60",
+    "category": "Gaming",
+    "description": "A video game is an electronic game that involves interaction with a user interface",
+    "image": "https://imgs.search.brave.com/b-TEDBQxGNGYwDGN5BSPQKgElC4WGqN6zzDXOWUN0tc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFGOUJkRlZUa0wu/anBn"
+  },
+  {
+    "id": "20",
+    "name": "Nespresso Essenza Mini Espresso Machine",
+    "miniDescription": "Appliance",
+    "price": "100",
+    "category": "Home",
+    "description": "A coffee maker is a kitchen appliance used to brew coffee",
+    "image": "https://imgs.search.brave.com/C_qRj7V4Nsu3Oho0dbVYxOZzyL8QhoXeDSNwlrknSj8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFFQjF2MWFveUwu/anBn"
+  }
+]

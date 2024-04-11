@@ -5,7 +5,7 @@ const productModel = new mongoose.Schema({
         type: String,
         required: true
     },
-    minDescription: {
+    miniDescription: {
         type: String,
         required: true
     },
@@ -13,7 +13,7 @@ const productModel = new mongoose.Schema({
         type: Number,
         required: true
     },
-    location: {
+    category: {
         type: String,
         required: true
     },
@@ -21,6 +21,10 @@ const productModel = new mongoose.Schema({
         type: String,
         required: true
     },
+    image: {
+        type: String,
+        required: true
+    }
 });
 
 export default mongoose.model('Product', productModel)
