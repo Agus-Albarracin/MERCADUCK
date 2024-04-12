@@ -1,9 +1,16 @@
 import mongoose from "mongoose";
 
-const connectDB = async () => {
+const connectDB = async (force = false) => {
   try {
     await mongoose.connect("mongodb://127.0.0.1:27017/Mercaduck");
     console.log("Se inicio MongoDB correctamente");
+
+    if (force) {
+      // Reinicializar la base de datos
+      await mongoose.connection.dropDatabase();
+      console.log("La base de datos se reinició correctamente");
+  }
+
   } catch (error) {
     console.error("Hubo un error al conectar con la base de datos", error);
     // Exit process with failure

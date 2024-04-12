@@ -1,0 +1,21 @@
+[
+    {   "userName": "UserNameAgusAlbarracin",
+        "name": "Agustin",
+        "email": "abusscin_@hotmail.com",
+        "password": "contraseña",
+        "googleId": "googleIdUsuario",
+        "imageUrl": "urlImagenUsuario",
+        "givenName": "Nombre dado",
+        "admin": true,
+        "stateUser": false,
+        "lastname": "Albarracin",
+        "adress": null,
+        "state": null,
+        "locality": null,
+        "codigoPostal": "12345",
+        "dni": "12345678",
+        "phoneNumber": null,
+        "gender": "Indefinido todavia"
+      }
+      
+]
