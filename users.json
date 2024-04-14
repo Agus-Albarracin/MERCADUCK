@@ -1,5 +1,6 @@
 [
-    {   "userName": "UserNameAgusAlbarracin",
+    {   "id": "123124",
+        "userName": "UserNameAgusAlbarracin",
         "name": "Agustin",
         "email": "abusscin_@hotmail.com",
         "password": "contraseña",
@@ -15,7 +16,7 @@
         "codigoPostal": "12345",
         "dni": "12345678",
         "phoneNumber": null,
-        "gender": "Indefinido todavia"
+        "gender": "male"
       }
       
 ]

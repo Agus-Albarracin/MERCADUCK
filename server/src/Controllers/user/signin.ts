@@ -15,7 +15,6 @@ const client = new OAuth2Client(CLIENT_ID);
 
 export async function signIn(req: Request, res: Response) {
   const { token } = req.body;
-  
   try {
       const ticket = await client.verifyIdToken({
         //verifyIdToken is exclusiv method by client
@@ -38,14 +37,15 @@ export async function signIn(req: Request, res: Response) {
 
         // Save or update user in the data base
 
-        const { sub, given_name, email } = payload;
+        const { sub, name, email } = payload;
         let user = await userModel.findOne({ googleId: sub });
 
         if (!user) {
             user = new userModel({
+              id: sub,
               googleId: sub,
               email: email,
-              name: given_name,
+              name: name,
             });
           }
 

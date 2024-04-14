@@ -1,6 +1,7 @@
 import React from 'react';
 import { GoogleLogin, CredentialResponse } from '@react-oauth/google';
 import decodeJwt from '../utils/decodeJwt';
+import axios from "axios"
 
 const  GoogleLoginComponent: React.FC = () => {
   /* 
@@ -17,12 +18,20 @@ const  GoogleLoginComponent: React.FC = () => {
 
     Agus Albarracin <- 
   */
-    const onSuccess = (credentialResponse: CredentialResponse) => {
+    const onSuccess = async (credentialResponse: CredentialResponse) => {
       console.log(credentialResponse);
       if(credentialResponse.credential){
         const { payload } = decodeJwt(credentialResponse.credential)
         console.log("Se obtuvo info del usuario", payload)
       }
+      try {
+        const response = await axios.post("/api/signin", { token: credentialResponse.credential });
+        console.log(response.data);
+        // Manejar la respuesta del servidor según sea necesario
+      } catch (error) {
+        console.error('Error al enviar el token al servidor:', error);
+      }
+
     };
   
     const onError = () => {
