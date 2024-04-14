@@ -18,41 +18,24 @@ const userModel = new mongoose.Schema(
       lowercase: true,
     },
 
-    name: {
-      type: String,
-      required: true,
-      trim: true,
-    },
-
-    givenName: {
-     type: String,
-     required: true,
-    },
-
     googleId:{
     type: String,
     require: true,
     unique: true,
     },
-
-// FORMS PAGE DATA
-
-    username: {
+    
+    name: {
       type: String,
       required: false,
       unique: true,
       trim: true,
     },
 
+// FORMS PAGE DATA
+
     lastname:{
       type: String,
       requiered: true,
-      trim: true,
-    },
-
-    password: {
-      type: String,
-      required: true,
       trim: true,
     },
 
