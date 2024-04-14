@@ -1,5 +1,5 @@
 import './App.css'
-import Auth from "./helpers/GoogleOAuth/GoogleOAuth"
+import Auth from "./helpers/googleLogin/GoogleOAuth"
 
 function App() {
 
