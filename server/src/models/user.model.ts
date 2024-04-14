@@ -1,12 +1,9 @@
 import mongoose from "mongoose";
-import uuidv4 from 'uuid';
-
 const userModel = new mongoose.Schema(
   { 
-    id: {
+    id: { // Insert to model the googleId 
       type: String,
-      default: uuidv4,
-      require: true,
+      required: true,
       unique: true,
     },
   // GOOGLE DATA TO FORMS
@@ -17,44 +14,14 @@ const userModel = new mongoose.Schema(
       unique: true,
       lowercase: true,
     },
-
+    
     name: {
-      type: String,
-      required: true,
-      trim: true,
-    },
-
-    givenName: {
-     type: String,
-     required: true,
-    },
-
-    googleId:{
-    type: String,
-    require: true,
-    unique: true,
-    },
-
-// FORMS PAGE DATA
-
-    username: {
       type: String,
       required: false,
       unique: true,
       trim: true,
     },
 
-    lastname:{
-      type: String,
-      requiered: true,
-      trim: true,
-    },
-
-    password: {
-      type: String,
-      required: true,
-      trim: true,
-    },
 
 // PROFILE FORM TO BUY
 
