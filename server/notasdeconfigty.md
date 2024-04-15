@@ -23,3 +23,7 @@ Para que se actulice automáticamente la rama "main" y puedan ver si hay cambios
 puede usar la linea de comando git: **git branch --set-upstream-to=origin/main main**
 Esto actuliza la rama main al dia de la fecha, despues ustedes tienen que hacer: **git merge nombreDeSuRama**
 se traen los cambios de la rama "main"(actualizada), a su rama de desarrollo para que puedan continuar con su código.
+
+
+####
+pnpm son dependencias, ya las añadi al .gitignore.
