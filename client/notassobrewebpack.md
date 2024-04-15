@@ -55,3 +55,7 @@ Una forma común de hacer esto es usar variables de entorno en tiempo de compila
 
 Si necesitas más ayuda para configurar tus variables de entorno en tu aplicación de React con Vite, házmelo saber y estaré encantado de ayudarte.
 
+## Variables de entorno dentro de front end.
+
+La manera correcta de esconder nuestras APIKEY del lado del front, es usando import.meta.env.VITE_REACT_APP_NOMBREDELAVAR
+Y todas las variables deben comenzar con VITE_REACT_APP_NOMBREDELAVAR=
