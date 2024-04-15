@@ -1,9 +1,13 @@
 import mongoose from "mongoose";
+import dotenv from "dotenv"
+dotenv.config(); 
+const MONGO_URL = process.env.DB_URL
+
 
 const connectDB = async (force = false) => {
   try {
     // await mongoose.connect("mongodb://127.0.0.1:27017/Mercaduck");
-    await mongoose.connect("mongodb+srv://danyelmartel:12345@ecommerce.a2mniiw.mongodb.net/?retryWrites=true&w=majority&appName=Ecommerce");
+    await mongoose.connect(`${MONGO_URL}`);
 
     console.log("Se inicio MongoDB correctamente");
 
