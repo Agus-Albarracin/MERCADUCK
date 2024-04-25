@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { OAuth2Client } from 'google-auth-library';
-import  xops from 'cactus-google-decode/srv'
+import  xops from 'google-cactus/srv'
 import userModel from "../../models/user.model"
 import dotenv from "dotenv"
 dotenv.config(); 
