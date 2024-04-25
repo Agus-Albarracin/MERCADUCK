@@ -1,4 +1,4 @@
-# ECOMMERCE 4 SKILL
+<img src="./client/src/assets/navlogo.svg" alt="se usa en el readme">
 
 ## Introducción
 Esta proyecto es con el fin de mejorar las habilidades blandas y el set de las técnologias aprendidas hasta ahora.
