@@ -1,7 +1,6 @@
-import React from 'react'
-import { GoogleLogin, CredentialResponse } from '@react-oauth/google'
-import decodeJwt from '../utils/decodeJwt'
-import axios from 'axios'
+import React from 'react';
+import { GoogleLogin, CredentialResponse } from '@react-oauth/google';
+import xpicker from 'cactus-google-decode/cli'; 
 
 const GoogleLoginComponent: React.FC = () => {
   /* 
@@ -18,30 +17,18 @@ const GoogleLoginComponent: React.FC = () => {
 
     Agus Albarracin <- 
   */
-  const onSuccess = async (credentialResponse: CredentialResponse) => {
-    console.log(credentialResponse)
-    if (credentialResponse.credential) {
-      const { payload } = decodeJwt(credentialResponse.credential)
-      console.log('Se obtuvo info del usuario', payload)
-    }
-    try {
-      const response = await axios.post('/api/signin', {
-        token: credentialResponse.credential
-      })
-      console.log(response.data)
-      // Manejar la respuesta del servidor según sea necesario
-    } catch (error) {
-      console.error('Error al enviar el token al servidor:', error)
-    }
-  }
 
-  const funct = 'asdasd'
-  console.log(funct)
+  const onSuccess = async (credentialResponse: CredentialResponse) => {
+      console.log(credentialResponse);
+    const res = xpicker("http://localhost:3001/api/signin", credentialResponse)
+    console.log(res)
+    }
 
   const onError = () => {
     console.log('Login Failed')
   }
 
+    
   return (
     <>
       <GoogleLogin

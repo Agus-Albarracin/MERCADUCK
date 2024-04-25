@@ -18,7 +18,6 @@ const userModel = new mongoose.Schema(
     name: {
       type: String,
       required: false,
-      unique: true,
       trim: true,
     },
 

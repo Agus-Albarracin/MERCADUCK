@@ -4,7 +4,7 @@
     "target": "es2017", 
     
     /* Indica el sistema de módulos a utilizar */
-    "module": "commonjs",
+    "module": "CommonJS",
     
     /* Habilita todas las opciones de verificación estricta */
     "strict": true,
@@ -23,7 +23,6 @@
     
     /* Configuración para facilitar la importación de módulos */
     "baseUrl": "./",
-    "paths": { "*": ["node_modules/*"] },
     
     /* Especifica el directorio de origen donde se encuentran los archivos TypeScript */
     "rootDir": "./src",
