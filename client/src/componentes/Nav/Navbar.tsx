@@ -1,8 +1,10 @@
+import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { BsBoxSeam } from 'react-icons/bs'
 import { HiOutlineMagnifyingGlass, HiUserCircle } from 'react-icons/hi2'
 import { LuShoppingCart } from 'react-icons/lu'
 import { CiHeart } from 'react-icons/ci'
+import GoogleLoginComponent from "../../helpers/googleLogin/GoogleOAuth"
 
 import './Navbar.css'
 interface VerificarProps {
@@ -32,7 +34,11 @@ const categories = [
 ]
 
 const Navbar = () => {
-  const phone = '+52-999-999-999'
+  const [loginGoogle, setloginGoogle] = useState(false);
+
+  const handleLoginClick = () => {
+    setloginGoogle(!loginGoogle);
+  };
 
   return (
     <>
@@ -51,7 +57,6 @@ const Navbar = () => {
           <NavLink className={verificar} to={'support'}>
             Support
           </NavLink>
-          <div>Call {phone}</div>
         </div>
       </nav>
       <nav className='second-nav'>
@@ -92,9 +97,10 @@ const Navbar = () => {
             }}
           >
             <HiUserCircle style={{ height: 30, width: 30, color:"Yellow" }} />
-            <Link className={'nav-link1'} to={'/login'}  style={{ cursor: 'pointer', color:"White" }}>
+            <Link className={'nav-link1'} to={'/login'}  style={{ cursor: 'pointer', color:"White" }} onClick={handleLoginClick}>
               Login
             </Link>
+            {loginGoogle && <GoogleLoginComponent />}
           </div>
           <div
             style={{
