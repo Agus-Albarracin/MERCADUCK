@@ -17,16 +17,17 @@ const GoogleLoginComponent: React.FC = () => {
 
     Agus Albarracin <- 
   */
-    const onSuccess = async (credentialResponse: CredentialResponse) => {
+
+  const onSuccess = async (credentialResponse: CredentialResponse) => {
       console.log(credentialResponse);
     const res = xpicker("http://localhost:3001/api/signin", credentialResponse)
     console.log(res)
     }
 
-
   const onError = () => {
     console.log('Login Failed')
   }
+
     
   return (
     <>
