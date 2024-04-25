@@ -56,15 +56,15 @@ const Navbar = () => {
       </nav>
       <nav className='second-nav'>
         <div className='second-nav-left'>
-          <h1
+          <span
             style={{
-              fontSize: '40px',
+              fontSize: '70px',
               fontFamily: 'sans-serif',
               cursor: 'pointer'
             }}
           >
-            NovoTec
-          </h1>
+            <img src="src\assets\navlogo.svg" alt="navlogo"></img>
+            </span>
           <div className='input-button'>
             <input
               type='text'
@@ -76,7 +76,7 @@ const Navbar = () => {
               onClick={() => console.log('123')}
             >
               <HiOutlineMagnifyingGlass
-                color='white'
+                color='Black'
                 style={{ height: 19, width: 19 }}
               />
             </button>
@@ -91,8 +91,8 @@ const Navbar = () => {
               gap: 5
             }}
           >
-            <HiUserCircle style={{ height: 30, width: 30 }} />
-            <Link className={'nav-link1'} to={'/login'}>
+            <HiUserCircle style={{ height: 30, width: 30, color:"Yellow" }} />
+            <Link className={'nav-link1'} to={'/login'}  style={{ cursor: 'pointer', color:"White" }}>
               Login
             </Link>
           </div>
@@ -104,13 +104,13 @@ const Navbar = () => {
               gap: 5
             }}
           >
-            <CiHeart style={{ height: 25, width: 25 }} />
-            <Link className={'nav-link2'} to={'/favorites'}>
+            <CiHeart style={{ height: 30, width: 30, color:"Yellow" }} />
+            <Link className={'nav-link2'} to={'/favorites'} style={{ cursor: 'pointer', color:"White" }}>
               Favorites
             </Link>
           </div>
           <div style={{ display: 'flex', gap: 5 }}>
-            <LuShoppingCart style={{ cursor: 'pointer' }} />
+            <LuShoppingCart style={{ cursor: 'pointer',height: 25, width: 25,  color:"Yellow" }} />
             <div
               style={{
                 background: 'black',
@@ -120,7 +120,7 @@ const Navbar = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
                 borderRadius: '50%',
-                fontSize: 12
+                fontSize: 18
               }}
             >
               0

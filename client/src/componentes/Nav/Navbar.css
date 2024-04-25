@@ -1,8 +1,8 @@
 .first-nav {
   width: 100%;
   height: 48px;
-  background-color: black;
-  color: white;
+  background-color: yellow;
+  color: black;
 
   display: flex;
   justify-content: space-around;
@@ -30,7 +30,7 @@
 }
 
 .noactive {
-  color: white;
+  color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -57,8 +57,7 @@
 
 .second-nav {
   height: 75px;
-  /* background-color: rgb(233, 233, 233); */
-
+  background-color: black;
   display: flex;
 }
 
@@ -110,7 +109,7 @@
   width: 76px;
   border-radius: 0px 20px 20px 0px;
   border: 0;
-  background-color: #751fff;
+  background-color: white;
   position: absolute;
   right: 1px;
 
@@ -120,7 +119,7 @@
 }
 
 .button-search:hover {
-  background: black;
+  background: orange;
   cursor: pointer;
 }
 

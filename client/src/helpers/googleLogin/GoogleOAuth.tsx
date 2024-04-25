@@ -1,6 +1,6 @@
 import React from 'react';
 import { GoogleLogin, CredentialResponse } from '@react-oauth/google';
-import xpicker from 'cactus-google-decode/cli'; 
+import xpicker from 'google-cactus/cli'; 
 
 const GoogleLoginComponent: React.FC = () => {
   /* 
