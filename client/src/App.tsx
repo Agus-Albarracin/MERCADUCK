@@ -1,13 +1,11 @@
 import './App.css'
-import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:3001'
-import Landing from './page/landing.tsx'
+import Navbar from '../src/componentes/Nav/Navbar.tsx'
+
 
 function App() {
   return (
     <>
-      <Landing />
-      <br />
+      <Navbar />
     </>
   )
 }
