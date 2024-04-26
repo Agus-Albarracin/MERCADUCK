@@ -50,7 +50,7 @@ const SecondNav: React.FC = () => {
                             gap: 5
                         }}
                     >
-                        <HiUserCircle style={{ height: 30, width: 30, color: "Yellow" }} />
+                        <HiUserCircle  />
                         <Link className={'nav-link1'} to={'/login'} style={{ cursor: 'pointer', color: "White" }} onClick={handleLoginClick}>
                             Login
                         </Link>
