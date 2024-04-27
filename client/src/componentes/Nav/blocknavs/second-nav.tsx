@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
-import { HiOutlineMagnifyingGlass, HiUserCircle } from 'react-icons/hi2'
+import { HiOutlineMagnifyingGlass } from 'react-icons/hi2'
 import { LuShoppingCart } from 'react-icons/lu'
 import { CiHeart } from 'react-icons/ci'
 import GoogleLoginComponent from "../../../helpers/googleLogin/GoogleOAuth"
@@ -50,11 +50,9 @@ const SecondNav: React.FC = () => {
                             gap: 5
                         }}
                     >
-                        <HiUserCircle style={{ height: 30, width: 30, color: "Yellow" }} />
                         <Link className={'nav-link1'} to={'/login'} style={{ cursor: 'pointer', color: "White" }} onClick={handleLoginClick}>
-                            Login
+                        <GoogleLoginComponent />
                         </Link>
-                        {loginGoogle && <GoogleLoginComponent />}
                     </div>
                     <div
                         style={{
