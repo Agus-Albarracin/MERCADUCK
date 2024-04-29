@@ -7,14 +7,20 @@ const Slider: React.FC<{ images: string[] }> = ({ images }) => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-    }, 10000);
+    }, 5000);
 
     return () => clearInterval(intervalId);
   }, [images.length]);
 
   return (
-    <div className='ContainerSlider'>      
-      <img className = "imagenSlider" src={images[index]} alt={`Slide ${index}`} />
+    <div className='ContainerSlider'>    
+    <p className='textContainer'> Súper precios en tus <br /> arículos favoritos </p>
+
+    <button onClick={() => { window.location.href = 'https://www.ejemplo.com'; }}>
+      Ir a Ejemplo.com
+    </button>
+    
+    <img className = "imagenSlider" id = "imagenSliderContainer" src={images[index]} alt={`Slide ${index}`} />
     </div>
   );
 };

@@ -1,10 +1,45 @@
-.imagenSlider {
-       max-width: 100%;
-    max-height: 100%;
-    height: auto;
-    width: auto;
- }
+.ContainerSlider {
+width:  auto;
+height: 100%;
 
- .ContainerSlider {
+}
 
- }
+.textContainer{
+position: fixed;
+margin-top: 100px;
+font-size: 40px;
+color: white;
+font-family: "Lucida Console", "Courier New", monospace;
+padding-left: 40px;
+
+}
+.ContainerSlider button {
+position: fixed;
+margin-top: 200px;
+margin-left: 50px;
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.imagenSlider{
+  max-width: 100%;
+  max-height: 100%;
+}
+
