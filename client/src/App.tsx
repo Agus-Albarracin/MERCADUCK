@@ -1,14 +1,15 @@
 import './App.css'
-import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:3001'
-import Landing from './page/landing.tsx'
+import Navbar from '../src/componentes/Nav/Navbar.tsx'
+import Home from '../src/componentes/home/Home.tsx'
+import Carrusel from './componentes/slider/carrusel.tsx'
 
 function App() {
   return (
     <>
-      <Landing />
-      <br />
-    
+      <Navbar />
+      <Carrusel />
+      <Home />
+
     </>
   )
 }
