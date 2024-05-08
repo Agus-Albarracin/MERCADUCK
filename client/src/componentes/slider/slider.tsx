@@ -16,12 +16,13 @@ const Slider: React.FC<{ images: string[] }> = ({ images }) => {
     <div className='ContainerSlider'>    
     <p className='textContainer'> Súper precios en tus <br /> arículos favoritos </p>
 
-    <button onClick={() => { window.location.href = 'https://www.ejemplo.com'; }}>
-      Ir a Ejemplo.com
+    <button onClick={() => { window.location.href = 'prodcutos'; }}>
+      Compra Ahora
     </button>
     
     <img className = "imagenSlider" id = "imagenSliderContainer" src={images[index]} alt={`Slide ${index}`} />
     </div>
+
   );
 };
 

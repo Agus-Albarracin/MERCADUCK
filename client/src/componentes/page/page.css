@@ -1,0 +1,83 @@
+/* CSS file */
+.ContainerBox
+{
+     justify-content: space-around;
+     display: flex;
+     margin-top: 50px;    
+     
+}
+
+.box{  
+     padding-top: 35x;
+     background-size:  contain;
+     background-repeat: no-repeat;
+     width: 550px;
+     height: 550px;
+     color: white;
+
+}
+
+.box p {       
+margin-left: 35px;
+font-size:20px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box h1 {       
+     font-size: 35px;
+     margin-left: 35px;
+     font-family: Arial, Helvetica, sans-serif;
+
+     }
+
+.box button {
+       position: absolute;
+       margin-left: 35px;
+       line-height: 20px;
+       background: #ffffff;
+       border-radius: 999px;
+       box-shadow: #5E5DF0 0 10px 20px -10px;
+       box-sizing: border-box;
+       color: #000000;
+       cursor: pointer;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 16px;
+       opacity: 1;
+       outline: 0 solid transparent;
+       padding: 8px 18px;
+       user-select: none;
+       -webkit-user-select: none;
+       touch-action: manipulation;
+       width: fit-content;
+       word-break: break-word;
+       border: 0;
+     }
+
+     
+/* caja */
+
+.container-parraf {
+     display: flex;
+     max-width: 100%;
+     justify-content: center; /* Centra horizontalmente los elementos */
+     align-items: center; /* Centra verticalmente los elementos */
+   }
+   
+   .box-parraf {
+     width: 90%; /* Ancho del 90% del contenedor padre */
+     padding: 20px; /* Añade espacio interno de 20px */
+     background-color: rgba(206, 206, 204, 0.432); 
+   }
+   
+   .box-parraf p {
+     width: 24%;
+     font-size: 18px;
+     max-height: 100%;
+     font-family: Arial, sans-serif			;
+     display: inline-block;
+     margin-bottom: 20px; /* Añade espacio entre los párrafos */
+     justify-content: space-around;
+     text-align: center ;
+   }
+   
